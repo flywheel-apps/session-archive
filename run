@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+# @Authorship: Jennifer Reiter
+# Flywheel 2017
+#
+
+# CONFIGURE ENV
+source /flywheel/v0/docker-env.sh
+
+# Run python file
+python /flywheel/v0/create_archive.py

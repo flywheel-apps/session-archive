@@ -1,0 +1,27 @@
+{
+  "label": "Session Archive",
+  "name": "session-archive",
+  "version": "0.0.1rc1",
+  "description": "This gear uses the Flywheel Python SDK to locate all files within a given session (indicated by session ID given in the config file) on a user's Flywheel Instance. All files within the session are outputted as a single zip archive.",
+  "inputs": {},
+  "config": {
+    "session_id": {
+      "default": "",
+      "type": "string",
+      "description": "ID number of the session."
+    },
+    "api_key": {
+      "default": "",
+      "type": "string",
+      "description": "The API key of the user."
+    }
+  },
+  "author": "Jennifer Reiter",
+  "maintainer": "Jennifer Reiter",
+  "custom": {
+    "docker-image": "flywheel/session-archive:v0.0.1"
+  },
+  "license": "Other",
+  "url": "",
+  "source": "https://github.com/flywheel-apps/session-archive"
+}
